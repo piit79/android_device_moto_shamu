@@ -411,3 +411,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Low latency audio buffer size in frames
 PRODUCT_PROPERTY_OVERRIDES += \
     audio_hal.period_size=192
+
+# Custom URI for CMUpdater
+PRODUCT_PROPERTY_OVERRIDES += \
+    cm.updater.uri=https://cm.fatsoft.uk/api
