@@ -399,3 +399,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Gello
 PRODUCT_PACKAGES += \
     Gello
+
+# Custom URI for CMUpdater
+PRODUCT_PROPERTY_OVERRIDES += \
+    cm.updater.uri=https://cm.zz9.cz/api
